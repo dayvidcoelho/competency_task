@@ -15,10 +15,7 @@
     
   </head>
 <body class="text-center">
-  <div>
-    <img class="" src="images/shot_sticker.png" alt="" width="120" height="170" id="shotStickerImg">
-    <img class="" src="images/fireball.png" alt="" width="100" height="200" id="fireballImg">
-  </div>
+ 
   <main class="form-signin w-100 m-auto">
     <form id="formId" method="post" enctype="multipart/form-data"> 
  
