@@ -11,21 +11,18 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/dist/css/index.css" rel="stylesheet">
-    <!--<style>
-    body {
-      background-image: url('images/form_page.png');
-      background-position: center top;
-      background-repeat: no-repeat;
-    }
-    </style>
-  -->
+    
     
   </head>
 <body class="text-center">
-  
+  <div>
+    <img class="" src="images/shot_sticker.png" alt="" width="120" height="170" id="shotStickerImg">
+    <img class="" src="images/fireball.png" alt="" width="100" height="200" id="fireballImg">
+  </div>
   <main class="form-signin w-100 m-auto">
     <form id="formId" method="post" enctype="multipart/form-data"> 
-      
+ 
+      <img class="mb-2" src="images/logo.png" alt="" width="320" height="150">
       <h1 class="h3 mb-3 fw-normal">Register Your<br>Unique Code</h1>
         <div id="formContentDiv">
           <div class="form-floating mb-2">
@@ -63,7 +60,7 @@
           <h4 id="resultMsg"></h4>
         </div>
 
-        <p class="mt-4 mb-3 text-muted">&copy; 2017–2022</p>
+        <p class="mt-4 mb-3 text-muted">DC &copy; 2022–2022</p>
     
     </form>
   </main>

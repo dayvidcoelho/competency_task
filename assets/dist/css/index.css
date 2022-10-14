@@ -95,3 +95,19 @@ body {
   font-size: 1rem;
   color: gray
 }
+
+#shotStickerImg {
+  position:absolute;
+  left:20%;
+  top:30%;
+  margin-left:-75px;
+  margin-top:-125px;
+}
+
+#fireballImg {
+  position:absolute;
+  right:25%;
+  top:35%;
+  margin-right:-100px;
+  margin-top:-150px;
+}
