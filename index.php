@@ -36,7 +36,7 @@
           </div>
           <div class="form-floating mb-2">
             <input type="text" class="form-control" name="code" id="codeId" maxlength=6 minlenght=6 required>
-            <label for="floatingInput">Unique Code</label>
+            <label for="floatingInput">6-Digit Code</label>
           </div>
 
           <div id="formErrorDiv" class="display-hide">
