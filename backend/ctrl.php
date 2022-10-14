@@ -52,7 +52,7 @@ if ($valid) {
  
 } else{
     $output["success"] = false;
-    $output["message"] = "Some Data is Invalid!!";
+    $output["message"] = "Incorrect Data!!! Check the inputs and Try again!";
 }
 
 

@@ -19,12 +19,17 @@ class db
 	
 	public function __construct(){
         
-        self::$db = 'info_database';
-        //self::$host = 'xxxxxx';
-        self::$host = 'localhost';
+        //self::$db = 'info_database';
+        //self::$host = 'localhost';
+        //self::$port = 3306;
+        //self::$user = 'user';
+		//self::$pass = 'Coelho16#';
+		
+		self::$db = 'heroku_2f06383a3322b0c';
+        self::$host = 'eu-cdbr-west-03.cleardb.net';
         self::$port = 3306;
-        self::$user = 'user';
-        self::$pass = 'Coelho16#';
+        self::$user = 'b1f29d738bbe88';
+        self::$pass = 'db7c9c97';
         
 				
 		self::$con = mysqli_connect(self::$host, self::$user, self::$pass, self::$db);
